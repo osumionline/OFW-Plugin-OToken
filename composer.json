@@ -1,0 +1,23 @@
+{
+    "name": "osumi/plugin-otoken",
+    "description": "Plugin for Osumi Framework to handle JWT Tokens",
+    "version": "3.0.0",
+    "type": "project",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Osumi\\OsumiFramework\\Plugins\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iñigo Gorosabel",
+            "email": "inigo.gorosabel@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=8.2"
+    }
+}
